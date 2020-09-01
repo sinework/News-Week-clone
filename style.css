@@ -1,11 +1,16 @@
 html,
 body {
+  width: 100%;
   padding: 0;
   margin: 0;
+  background-color: #f4f5f6 !important;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
-
+.container-body{
+  width: 80%;
+}
 .red-nav {
   display: flex;
   align-items: flex-end;
@@ -31,7 +36,8 @@ body {
 }
 
 .top-nav-container li{
-
+  border-right: 1px solid;
+  
 }
 .top-nav-container a{
   font-size: 19px;
@@ -39,13 +45,19 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 
   line-height: 24px;
-  border-right: 1px solid;
-  
+  padding: 0;
 
   
 }
 
 
 .bottom-nav-container{
-
+  border-top: #f5f5f5 solid;
+  border-top: #f5f5f5 solid;
+  width: 100%;
+}
+.bottom-nav-container a{
+  
+  font-weight: bold;
+  
 }
