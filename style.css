@@ -70,9 +70,40 @@ body {
 .left-section img {
   height: 225px;
 }
-.media{
+.media {
   border-top: #e2dbdb thin solid;
 }
-.middle-three-item{
-  width:30%;
+.middle-three-item {
+  width: 30%;
+}
+
+.person-logo {
+  height: 63px;
+}
+
+.vs {
+  color: gray;
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 900;
+}
+
+.thick-border {
+  border-top: 4px solid #d9d9d9;
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.right-section .media h5 {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.right-section .media p {
+  color: darkgray;
+  font-weight: 600;
 }
