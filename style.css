@@ -25,3 +25,27 @@ body {
   border-radius: 10px;
   border: none;
 }
+.top-nav-container{
+
+
+}
+
+.top-nav-container li{
+
+}
+.top-nav-container a{
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  line-height: 24px;
+  border-right: 1px solid;
+  
+
+  
+}
+
+
+.bottom-nav-container{
+
+}
