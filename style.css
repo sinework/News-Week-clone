@@ -107,3 +107,18 @@ body {
   color: darkgray;
   font-weight: 600;
 }
+.div-stick{
+  position: sticky;
+  top:-150px;
+}
+.N{
+  width:28px;
+  height: 28px;
+}
+.in-the-mag-header h5{
+ line-height: 100%;
+ margin:0;
+}
+.section-3-flex .art-item{
+  width:22.5%;
+}
