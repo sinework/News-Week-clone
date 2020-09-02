@@ -22,7 +22,7 @@
   </head>
   <body>
     <div class="container-body mx-auto bg-white">
-      <nav class="navbar-expand-md">
+      <nav>
         <div class="laptop-nav">
           <div class="red-nav w-100 text-white p-3">
             <div class="weather">
@@ -45,12 +45,8 @@
               </button>
             </div>
           </div>
-          <div class="white-nav  navbar navbar-expand-md">
-           
-            <div
-              class="top-nav-container collapse navbar-collapse"
-              id="navbarnav"
-            >
+          <div class="white-nav navbar navbar-expand-md">
+            <div class="top-nav-container collapse navbar-collapse">
               <ul class="navbar-nav py-0 flex-wrap">
                 <li class="nav-item py-0 px-1"><a class="nav-link">U.S.</a></li>
                 <li class="nav-item py-0 px-1">
@@ -109,20 +105,22 @@
             </div>
           </div>
         </div>
-        <div
-        id="mb"
-          class="mobile-nav d-flex flex-grow justify-content-between py-2 px-4 text-white align-items-center"
-        >
-          <img src="./images/news-logo.png" alt="News logo" />
-          <div class="right-mobile-nav d-flex flex-row align-items-center">
-            <span class="font-weight-bold">LOGIN</span>
-            <button
-              class="mobile-sub-button font-weight-bold btn-warning ml-2"
-              type="button"
-            >
-              Subscribe >
-            </button>
-            <i class="fas fa-bars fa-2x"></i>
+        <div class="mobile-nav">
+          <div
+            id="mb"
+            class="d-flex flex-grow justify-content-between py-2 px-4 text-white align-items-center"
+          >
+            <img src="./images/news-logo.png" alt="News logo" />
+            <div class="right-mobile-nav d-flex flex-row align-items-center">
+              <span class="font-weight-bold">LOGIN</span>
+              <button
+                class="mobile-sub-button font-weight-bold btn-warning ml-2"
+                type="button"
+              >
+                Subscribe >
+              </button>
+              <i class="fas fa-bars fa-2x"></i>
+            </div>
           </div>
         </div>
       </nav>
@@ -1042,7 +1040,7 @@
             <h5>EDITOR'S PICK</h5>
           </div>
           <div
-            class="section-3-flex d-flex flex-row justify-content-between pt-3 mx-3 flex-wrap"
+            class="editor-section d-flex flex-row justify-content-between pt-3 mx-3 flex-wrap"
           >
             <div class="art-item mt-4">
               <img

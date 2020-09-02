@@ -1,41 +1,53 @@
-@media only screen and (max-width: 1023px) {
+/* This is the media querie for screens under 990px */
+
+@media only screen and (max-width: 990px) {
   .laptop-nav {
     display: none;
   }
-  .mobile-nav {
-    background-color: #f72210;
+
+  .section-1 {
+    grid-template-areas:
+      "left middle"
+      "right right";
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
   }
 
-  .mobile-nav img {
-    height: 20px;
+  .left-section {
+    grid-area: left;
+  }
+  .middle-section {
+    grid-area: middle;
+  }
+  .right-section {
+    grid-area: right;
   }
 
-  .right-mobile-nav {
-    gap: 20px;
-  }
-
-  .mobile-sub-button {
-    width: 120px;
-    height: 35px;
-    color: white;
-    line-height: 100%;
-    border-radius: 10px;
-    border: none;
+  .editor-section .art-item {
+    width: 48%;
   }
 }
 
 @media only screen and (min-width: 425px) {
 }
 
-@media only screen and (min-width: 1024px) {
+/* This is the media querie for screens above 990px */
+
+@media only screen and (min-width: 990px) {
   .container-body {
     width: 85%;
     min-width: 1024px;
   }
 
-  .mobile-nav {
-    display: hidden;
+  .section-1 {
+    grid-template-columns: 30% 40% 30%;
+    box-sizing: border-box;
   }
+
+  .mobile-nav {
+    display: none;
+  }
+
   .mobile-nav img {
     display: none;
   }
@@ -57,6 +69,10 @@
   }
   .login-area span {
     font-weight: bold;
+  }
+
+  .editor-section .art-item {
+    width: 22.5%;
   }
 }
 
@@ -92,9 +108,6 @@ body {
   border-radius: 10px;
   border: none;
 }
-.mobile-nav {
-  display: none;
-}
 
 .top-nav-container li {
   border-right: 1px solid;
@@ -118,10 +131,29 @@ body {
   font-weight: bold;
 }
 
+.mobile-nav {
+  background-color: #f72210;
+}
+
+.mobile-nav img {
+  height: 20px;
+}
+
+.right-mobile-nav {
+  gap: 20px;
+}
+
+.mobile-sub-button {
+  width: 120px;
+  height: 35px;
+  color: white;
+  line-height: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
 .section-1 {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
-  box-sizing: border-box;
 }
 
 .section-1 a {
@@ -189,6 +221,7 @@ body {
   line-height: 100%;
   margin: 0;
 }
+
 .section-3-flex .art-item {
   width: 22.5%;
 }
