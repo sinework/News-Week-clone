@@ -111,6 +111,10 @@ body {
   position: sticky;
   top: -150px;
 }
+
+.free-sign-sec{
+  background-color: #F4F5F6;
+}
 .N {
   width: 28px;
   height: 28px;
@@ -170,4 +174,38 @@ body {
 
 .light-gray-border-top {
   border-top: 1px solid #d9d9d9;
+}
+.in-depth{
+  background-color: #F4F5F6;
+  width: 62%;
+  position: relative;
+}
+.sub{
+  position: absolute;
+  top:20px;
+  left:20px;
+  z-index: 0;
+
+}
+.sub-2{
+  position: absolute;
+  /* top:650px;
+  left:100px; */
+  z-index: 1; 
+}
+.btn-sub{
+  background-color:#f72210 ;
+}
+.sub-form{
+  width: 35%;
+  background-color: #fff;
+}
+.display-5{
+  font-family: "Roboto Condensed", sans-serif;
+  color:#f72210;
+}
+.footer-icons{
+  color:#f72210;
+  transform: scale(1.5);
+  
 }
