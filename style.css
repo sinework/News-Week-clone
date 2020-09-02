@@ -114,6 +114,7 @@ body {
 .N{
   width:28px;
   height: 28px;
+  background-color: #F72210;
 }
 .in-the-mag-header h5{
  line-height: 100%;
@@ -121,4 +122,31 @@ body {
 }
 .section-3-flex .art-item{
   width:22.5%;
+}
+
+.art-item-spn a{
+  
+  color:#F72210;
+  font-weight: bold;
+  
+
+}
+.font-wght h6 a{
+  font-weight: 700;
+}
+.art-item-spn span{
+  color: #fff;
+  background-color: #F72210;
+  font-weight: bold;
+ 
+}
+
+.font-wght img{
+  height:250px;
+}
+.art-item-fst a{
+  background-color:#DBDCDD;
+}
+.art-item-fst-img{
+  height: 330px;
 }
