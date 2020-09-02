@@ -1,3 +1,32 @@
+@media only screen and (max-width: 1023px) {
+  .laptop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    background-color: #f72210;
+  }
+
+  .mobile-nav img {
+    height: 20px;
+  }
+
+  .right-mobile-nav {
+    gap: 20px;
+  }
+
+  .mobile-sub-button {
+    width: 120px;
+    height: 35px;
+    color: white;
+    line-height: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+}
+
 @media only screen and (min-width: 1024px) {
   .container-body {
     width: 85%;
@@ -5,14 +34,30 @@
   }
 
   .mobile-nav {
+    display: hidden;
+  }
+  .mobile-nav img {
     display: none;
   }
-}
-
-@media only screen and (min-width: 768px) {
-}
-
-@media only screen and (min-width: 425px) {
+  .mobile-sub-button {
+    display: none;
+  }
+  .weather-widget span {
+    font-size: 18px;
+  }
+  .news-logo img {
+    transform: scale(0.75);
+  }
+  .sub-btn {
+    width: 200px;
+    height: 20px;
+  }
+  .login-area {
+    width: 300px;
+  }
+  .login-area span {
+    font-weight: bold;
+  }
 }
 
 html,
@@ -33,7 +78,10 @@ body {
 }
 
 .weather-widget span {
-  font-size: 18px;
+  font-size: 14px;
+}
+.news-logo img {
+  transform: scale(0.75);
 }
 
 .sub-btn {
@@ -44,12 +92,16 @@ body {
   border-radius: 10px;
   border: none;
 }
+.mobile-nav {
+  display: none;
+}
 
 .top-nav-container li {
   border-right: 1px solid;
 }
 .top-nav-container a {
-  font-size: 19px;
+  font-size: 18px;
+
   font-weight: bold;
   font-family: "Roboto Condensed", sans-serif;
 
@@ -64,27 +116,6 @@ body {
 }
 .bottom-nav-container a {
   font-weight: bold;
-}
-
-.mobile-nav {
-  background-color: #f72210;
-}
-
-.mobile-nav img {
-  height: 20px;
-}
-
-.right-mobile-nav {
-  gap: 20px;
-}
-
-.mobile-sub-button {
-  width: 120px;
-  height: 35px;
-  color: white;
-  line-height: 100%;
-  border-radius: 10px;
-  border: none;
 }
 
 .section-1 {

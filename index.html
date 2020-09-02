@@ -22,13 +22,13 @@
   </head>
   <body>
     <div class="container-body mx-auto bg-white">
-      <nav>
+      <nav class="navbar-expand-md">
         <div class="laptop-nav">
           <div class="red-nav w-100 text-white p-3">
             <div class="weather">
               <div class="weather-widget mb-2">
                 <i class="fas fa-cloud-sun mr-2"></i
-                ><span class="font-weigh-bold">25 Country Name XX ></span>
+                ><span class="font-weight-bold spn">25 Country Name XX ></span>
               </div>
               <div class="date">Tue, Sep 01, 2020</div>
             </div>
@@ -45,38 +45,42 @@
               </button>
             </div>
           </div>
-          <div class="white-nav nav navbar navbar-expand-sm">
-            <div class="top-nav-container">
+          <div class="white-nav  navbar navbar-expand-md">
+           
+            <div
+              class="top-nav-container collapse navbar-collapse"
+              id="navbarnav"
+            >
               <ul class="navbar-nav py-0 flex-wrap">
-                <li class="nav-item py-0 px-2"><a class="nav-link">U.S.</a></li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1"><a class="nav-link">U.S.</a></li>
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">World</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Business</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Tech & Sience</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Culture</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Newsgeek</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Sports</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Health</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">The debate</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Vantage</a>
                 </li>
-                <li class="nav-item py-0 px-2">
+                <li class="nav-item py-0 px-1">
                   <a class="nav-link">Weather</a>
                 </li>
               </ul>
@@ -106,7 +110,8 @@
           </div>
         </div>
         <div
-          class="mobile-nav d-flex flex-crow justify-content-between py-2 px-4 text-white align-items-center"
+        id="mb"
+          class="mobile-nav d-flex flex-grow justify-content-between py-2 px-4 text-white align-items-center"
         >
           <img src="./images/news-logo.png" alt="News logo" />
           <div class="right-mobile-nav d-flex flex-row align-items-center">
