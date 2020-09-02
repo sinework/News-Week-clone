@@ -107,46 +107,67 @@ body {
   color: darkgray;
   font-weight: 600;
 }
-.div-stick{
+.div-stick {
   position: sticky;
-  top:-150px;
+  top: -150px;
 }
-.N{
-  width:28px;
+.N {
+  width: 28px;
   height: 28px;
-  background-color: #F72210;
+  background-color: #f72210;
 }
-.in-the-mag-header h5{
- line-height: 100%;
- margin:0;
+.in-the-mag-header h5 {
+  line-height: 100%;
+  margin: 0;
 }
-.section-3-flex .art-item{
-  width:22.5%;
+.section-3-flex .art-item {
+  width: 22.5%;
 }
 
-.art-item-spn a{
-  
-  color:#F72210;
+.art-item-spn a {
+  color: #f72210;
   font-weight: bold;
-  
-
 }
-.font-wght h6 a{
+.font-wght h6 a {
   font-weight: 700;
 }
-.art-item-spn span{
+.art-item-spn span {
   color: #fff;
-  background-color: #F72210;
+  background-color: #f72210;
   font-weight: bold;
- 
 }
 
-.font-wght img{
-  height:250px;
+.font-wght img {
+  height: 250px;
 }
-.art-item-fst a{
-  background-color:#DBDCDD;
+.art-item-fst a {
+  background-color: #dbdcdd;
 }
-.art-item-fst-img{
+.art-item-fst-img {
   height: 330px;
+}
+
+.bold-weight {
+  font-weight: 700;
+}
+
+.bolder-weight {
+  font-weight: 800;
+}
+
+.sec-item {
+  width: 32%;
+}
+
+.sec-item .media img {
+  height: 95px;
+  width: 95px;
+}
+
+.orange-header {
+  color: #f72210;
+}
+
+.light-gray-border-top {
+  border-top: 1px solid #d9d9d9;
 }
