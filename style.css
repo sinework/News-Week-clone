@@ -1,6 +1,17 @@
 /* Mobile screen */
 
 @media only screen and (max-width: 768px) {
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-section,
+  .middle-section,
+  .right-section {
+    width: 100%;
+  }
+
   .sub-img {
     display: none;
   }
@@ -11,17 +22,19 @@
     margin-left: auto;
   }
   .in-depth {
-    flex: none;
+    flex-direction: column;
     justify-content: center;
-
-    box-sizing: content-box;
+    height: auto;
   }
   .subscribe-descrb {
     z-index: 5;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
     justify-content: center;
     text-align: center;
-    padding-top: 21%;
+    /* padding-top: 21%; */
   }
 
   .indepth-imgs {
@@ -39,6 +52,8 @@
   border:none;
 } */
   .section-1 {
+    display: grid;
+    margin-top: 60px;
     grid-template-areas:
       "left middle"
       "right right";
@@ -94,16 +109,19 @@
 /* This is the media querie for screens above 990px */
 
 @media only screen and (min-width: 990px) {
-  .container-body {
+  .container-body,
+  .red-nav {
     width: 85%;
     min-width: 1024px;
+    padding-top: 92px;
   }
-  .fixed {
+
+  .red-nav {
     position: fixed;
-    width: 85%;
-    margin: auto;
-    z-index: 10;
+    z-index: 1000;
+    top: 0;
   }
+
   .editions li {
     margin-right: 5px;
     padding-right: 10px;
@@ -111,6 +129,7 @@
   }
 
   .section-1 {
+    display: grid;
     grid-template-columns: 30% 40% 30%;
     box-sizing: border-box;
   }
@@ -156,13 +175,11 @@
     flex-direction: row;
   }
 
-  .in-depth,
-  .sub-h5 {
+  .subscrb-left {
     width: 58%;
   }
 
-  .sub-form,
-  .desc-h5 {
+  .subscrb-right {
     width: 40%;
   }
 
@@ -180,6 +197,10 @@ body {
   background-color: #f4f5f6 !important;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  box-sizing: border-box;
 }
 
 .red-nav {
@@ -246,10 +267,6 @@ body {
   line-height: 100%;
   border-radius: 10px;
   border: none;
-}
-
-.section-1 {
-  display: grid;
 }
 
 .section-1 a {
@@ -385,12 +402,16 @@ body {
 }
 
 .in-depth {
-  height: 300px;
+  /* height: 300px; */
   background-color: #f4f5f6;
 }
 
+.subscribe-descrb {
+  box-sizing: border-box;
+}
+
 .sub-form {
-  height: 300px;
+  /* height: 300px; */
   background-color: #fff;
 }
 
