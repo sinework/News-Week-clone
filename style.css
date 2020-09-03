@@ -1,6 +1,9 @@
 /* Mobile screen */
 
 @media only screen and (max-width: 768px) {
+  .editor-section,
+  .us-sec,
+  .footer-top-left,
   .section-1 {
     display: flex;
     flex-direction: column;
@@ -15,17 +18,19 @@
   .sub-img {
     display: none;
   }
+
   .flex {
     display: flex;
-
     flex-direction: column;
     margin-left: auto;
   }
+
   .in-depth {
     flex-direction: column;
     justify-content: center;
     height: auto;
   }
+
   .subscribe-descrb {
     z-index: 5;
     position: absolute;
@@ -34,23 +39,52 @@
     gap: 10%;
     justify-content: center;
     text-align: center;
-    /* padding-top: 21%; */
+    width: 70%;
   }
 
   .indepth-imgs {
     align-self: flex-start;
+    width: 30%;
+  }
+
+  /* copied form last media query */
+  .laptop-nav {
+    display: none;
+  }
+
+  .editor-section .art-item {
+    width: 49%;
+  }
+
+  .art-item-fst-img,
+  .font-wght img {
+    height: auto;
+  }
+
+  .subscrb {
+    flex-direction: column;
+  }
+
+  .in-depth,
+  .sub-form,
+  .section-3-flex .art-item,
+  .editor-section .art-item,
+  .us-sec .sec-item {
+    width: 100%;
+  }
+
+  .sub-form {
+    margin-top: 20px;
   }
 }
 
 /* This is the media querie for screens under 990px */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (min-width: 769px) and (max-width: 990px) {
   .laptop-nav {
     display: none;
   }
-  /* .footer-links-li a{
-  border:none;
-} */
+
   .section-1 {
     display: grid;
     margin-top: 60px;
@@ -77,10 +111,7 @@
     width: 49%;
   }
 
-  .art-item-fst-img {
-    height: auto;
-  }
-
+  .art-item-fst-img,
   .font-wght img {
     height: auto;
   }
@@ -101,8 +132,13 @@
   .subscribe-descrb {
     width: 70%;
   }
+
   .sub-form {
     margin-top: 20px;
+  }
+
+  .section-3-flex .art-item {
+    width: 22.5%;
   }
 }
 
@@ -138,10 +174,7 @@
     display: none;
   }
 
-  .mobile-nav img {
-    display: none;
-  }
-
+  .mobile-nav img,
   .mobile-sub-button {
     display: none;
   }
@@ -186,6 +219,15 @@
   .indepth-imgs,
   .subscribe-descrb {
     width: 50%;
+  }
+
+  .section-3-flex .art-item {
+    width: 22.5%;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 92px;
   }
 }
 
@@ -327,7 +369,7 @@ body {
 
 .div-stick {
   position: sticky;
-  top: -150px;
+  top: -50px;
 }
 
 .free-sign-sec {
@@ -338,10 +380,6 @@ body {
   width: 28px;
   height: 28px;
   background-color: #f72210;
-}
-
-.section-3-flex .art-item {
-  width: 22.5%;
 }
 
 .art-item-spn a {
