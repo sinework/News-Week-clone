@@ -1,10 +1,43 @@
+/* Mobile screen */
+
+@media only screen and (max-width: 768px) {
+  .sub-img {
+    display: none;
+  }
+  .flex {
+    display: flex;
+
+    flex-direction: column;
+    margin-left: auto;
+  }
+  .in-depth {
+    flex: none;
+    justify-content: center;
+
+    box-sizing: content-box;
+  }
+  .subscribe-descrb {
+    z-index: 5;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    padding-top: 21%;
+  }
+
+  .indepth-imgs {
+    align-self: flex-start;
+  }
+}
+
 /* This is the media querie for screens under 990px */
 
 @media only screen and (max-width: 990px) {
   .laptop-nav {
     display: none;
   }
-
+  /* .footer-links-li a{
+  border:none;
+} */
   .section-1 {
     grid-template-areas:
       "left middle"
@@ -53,6 +86,9 @@
   .subscribe-descrb {
     width: 70%;
   }
+  .sub-form {
+    margin-top: 20px;
+  }
 }
 
 /* This is the media querie for screens above 990px */
@@ -61,6 +97,17 @@
   .container-body {
     width: 85%;
     min-width: 1024px;
+  }
+  .fixed {
+    position: fixed;
+    width: 85%;
+    margin: auto;
+    z-index: 10;
+  }
+  .editions li {
+    margin-right: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #666;
   }
 
   .section-1 {
@@ -109,11 +156,13 @@
     flex-direction: row;
   }
 
-  .in-depth {
+  .in-depth,
+  .sub-h5 {
     width: 58%;
   }
 
-  .sub-form {
+  .sub-form,
+  .desc-h5 {
     width: 40%;
   }
 
@@ -376,12 +425,6 @@ body {
 
 .footer-top-left span {
   font-size: 12px;
-}
-
-.editions li {
-  margin-right: 5px;
-  padding-right: 10px;
-  border-right: 1px solid #666;
 }
 
 .footer-links {
